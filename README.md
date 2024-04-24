@@ -42,7 +42,7 @@ ApiClima proporciona endpoints para consultar información sobre el clima y la c
     - **Response example**:
     { "coord": { "lon": -74.006, "lat": 40.7127 }, "list": [ { "main": { "aqi": 2 }, "components": { "co": 323.77, "no": 3.1, "no2": 13.54, "o3": 60.8, "so2": 2.12, "pm2_5": 2.06, "pm10": 4.19, "nh3": 1.3 }, "dt": 1707920192 } ] }
 ## Uso
-Para usar esta api, simplemente realice solicitudes HTTP a los endpoints mencionados anteriormente, proporcionando el nombre de la ciudad deseada como parámetro en la URL. Asegúrese de incluir un token de autenticación válido en la cabecera de la solicitud para la autorización. Este token será generado en la cabecera a una solicitud HTTP al enpoint login.
+Para usar esta api, simplemente realice solicitudes HTTP a los endpoints mencionados anteriormente, proporcionando el nombre de la ciudad deseada como parámetro en la URL. Asegúrese de incluir un token de autenticación válido en la cabecera de la solicitud para la autorización. Este token será generado en la cabecera a una solicitud HTTP al endpoint login.
 ## Configuración
 Antes de utilizar esta API, asegúrese de configurar correctamente las siguientes dependencias y propiedades:
 
