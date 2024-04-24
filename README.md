@@ -28,7 +28,7 @@ ApiClima proporciona endpoints para consultar información sobre el clima y la c
     -   **Respuesta esperada**: Retorna un header con el token bearer.
     -   **Response header**:
      authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwcnVlYmFAbWFpbC5jb20iLCJleHAiOj
-     E3MTA1MTIxMTAsIm5vbWJyZSI6InBydWViYSJ9.qUbWbZOWpAUrq1u7-xRUBo0lnZANIYkuotXI3yIMCUQrhYZLKwmurh0eNgI6zQ1ug62VgMxlw1HN-r98H4TmHw cache-control: no-cache,no-store,max-age=0,must-revalidate  connection: keep-alive  date: Wed,14 Feb 2024 14:15:10 GMT  expires: 0  keep-alive: timeout=60  pragma: no-cache  transfer-encoding: chunked  vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers  x-content-type-options: nosniff  x-frame-options: DENY x-xss-protection: 0
+     E3MTA1MTIxMTAsIm5vbWJyZSI6InBydWViYSJ9.qUbWbZOWpAUrq1u7-xRUBo0lnZANIYkuotXI3yIMCUQrhYZLKwmurh0eNgI6zQ1ug62VgMxlw1HN-r98H4TmHw
 -   **GET /consultas/clima/{name}**: Obtiene información sobre el clima actual para una ciudad específica.
     -   **Respuesta esperada**: Retorna un objeto JSON con información sobre el clima actual de la ciudad especificada.
     - **Response example**:
