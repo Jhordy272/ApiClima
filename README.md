@@ -18,6 +18,7 @@ ApiClima proporciona endpoints para consultar información sobre el clima y la c
 -   JSON Web Tokens (JWT) para autenticación
 -   Bucket4j para limitar la tasa de consultas
 -   ObjectMapper de Jackson para procesamiento JSON
+-   Mockito para pruebas unitarias
 ## Endpoints
 -   **GET /login**: Obtiene el token valido para realizar consultas.
     -   **Request example**: 
